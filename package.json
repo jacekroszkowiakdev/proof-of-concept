@@ -1,0 +1,36 @@
+{
+  "name": "proof-of-concept",
+  "version": "1.0.0",
+  "description": "A POC (Proof of Concept) for connecting a database (DB) and an API through Node.js typically means creating a small, functional prototype to demonstrate how the connection between the database and the API can work. This is not a fully-fledged application but rather a minimal implementation to validate the feasibility of the integration. What your Jira item means:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacekroszkowiakdev/proof-of-concept.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacekroszkowiakdev/proof-of-concept/issues"
+  },
+  "homepage": "https://github.com/jacekroszkowiakdev/proof-of-concept#readme",
+  "dependencies": {
+    "@prisma/client": "^6.3.0",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.12.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
